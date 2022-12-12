@@ -1,0 +1,50 @@
+.navbar {
+  padding: 3rem;
+}
+
+.navbar__wrapper {
+  border-top: solid thin var(--primary-color);
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__wrapper__left {
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35em;
+}
+
+.navbar__title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-indent: -0.075em;
+}
+
+.navbar__subtitle {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+.navbar__wrapper__right {
+  font-size: 1rem;
+}
+
+.navbar__nav {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  gap: 3rem;
+  letter-spacing: 0.25em;
+  margin-right: 1rem;
+  list-style-type: none;
+}
+
+.navbar__nav__item a {
+  color: var(--primary-color);
+}

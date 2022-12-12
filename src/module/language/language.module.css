@@ -1,0 +1,54 @@
+.main {
+  background-color: #e6e6e6;
+  color: var(--primary-color);
+  min-height: 100vh;
+}
+
+.radios {
+  padding-inline: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.radios > span {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.radios > span > label {
+  font-weight: 600;
+  line-height: 1em;
+  margin-top: 0.15em;
+}
+
+.section {
+  padding-inline: 3rem;
+  padding-bottom: 3rem;
+}
+
+.title {
+  text-indent: -0.075em;
+  font-size: 8rem;
+  font-weight: 800;
+  line-height: 0.875em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 1.15rem;
+  font-weight: 500;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.checkboxes {
+  margin-top: 3rem;
+  max-width: 760px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
